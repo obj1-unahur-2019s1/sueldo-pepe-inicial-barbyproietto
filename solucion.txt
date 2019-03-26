@@ -1,0 +1,9 @@
+def sueldoNeto():
+    print ("Ingresar categoria:")
+    categorias=input()
+    neto=0
+    if (categorias=="gerente"):
+        neto=15000
+    if (categorias=="cadete"):
+        neto=20000
+    print ("Saldo Neto:", neto)
